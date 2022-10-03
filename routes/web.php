@@ -16,6 +16,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $variabileDiProva = "welcome class 96";
-
-    return view('home', ['informazione' => $variabileDiProva]);
+    phpinfo();
+    // return view('home', ['informazione' => $variabileDiProva]);
 });
